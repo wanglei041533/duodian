@@ -1,0 +1,23 @@
+001
+vue-cli 大型Vue项目的一个脚手架哦，通过他可以创建一个项目的目录结构以及项目规范
+npm install -g vue-cli
+vue init webpack project_name 
+
+
+002
+文件名是以 .vue结尾的，此文件包含三部分（template,sricpt,style）
+通过vue-loader编译成我们的vue组件
+index.html 入口页面
+src 是我们的项目代码目录
+assets 是静态资源文件
+components 是我们的一个组件目录
+router 使我们的路由（单页应用SPA）
+App.vue 是我们项目容器
+main.js 是入口js文件
+build config 这是目录是项目的webpack编译文件目录
+
+
+003
+生命周期的概念
+
+created , mounted , destory
